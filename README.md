@@ -29,3 +29,6 @@ TURN_START、TURN_END、GAME_ENDがグローバルに定義されていたため
 
 ### client/ChaserSimpleClient.py
 TURN_ENDがグローバルに定義されていたため、クラス内で定義するように変更し、グローバル変数を削除。また、その名前を__TURN_ENDのようにアンダーバーを2つ追加し、プライベート変数に変更。
+
+### utils/Connection.py
+BUFFER_SIZEがグローバルに定義されていたため、クラス内で定義するように変更し、グローバル変数を削除。また、その名前を__BUFFER_SIZEのようにアンダーバーを2つ追加し、プライベート変数に変更。
